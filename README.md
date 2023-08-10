@@ -11,20 +11,23 @@ Currently, two official plugins are available:
 
 Check the page [React Infinite Scroll Component](https://www.npmjs.com/package/react-infinite-scroll-component)
 
-```
-npm install --save react-infinite-scroll-component
+`npm install --save react-infinite-scroll-component`
 
-  or
+or
 
-  yarn add react-infinite-scroll-component
-
-  // in code ES6
-  import InfiniteScroll from 'react-infinite-scroll-component';
-  // or commonjs
-  var InfiniteScroll = require('react-infinite-scroll-component')
-```
+`yarn add react-infinite-scroll-component `
 
 Adding:
 
 * Reset Button with Scroll To Top
 * Add More Button
+
+# Second Function: Marquee
+
+Check the page [React Fast Marquee](https://www.react-fast-marquee.com/documentation)
+
+`npm install react-fast-marquee --save`
+
+or 
+
+`yarn add react-fast-marquee`

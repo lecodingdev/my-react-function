@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background-image {
+  position: relative;
+  width: calc(100% - 5rem);
+  height: auto;
+  background-image: linear-gradient(
+    to left top,
+    #101011,
+    #1d2031,
+    #253154,
+    #27437a,
+    #1c56a3
+  );
+}
+
+.marquee-container {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  font-size: clamp(6rem, 4.25vw, 8rem);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  color: transparent;
+  transition: 0.5s all;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 1rem;
+}
